@@ -32,8 +32,7 @@ static void err_exit(void)
 /*
  * main function 
  */
- 
-int main(int argc, char *argv[])
+ int main(int argc, char *argv[])
 {
     int i;
     
