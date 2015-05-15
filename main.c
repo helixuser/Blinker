@@ -9,8 +9,6 @@
 #include <stddef.h>
 #include <stdlib.h>
 #include <unistd.h>
-
-
 #include "gpioutils.h"
 
 /*
@@ -18,7 +16,7 @@
  * with a -1 status code.
  *
  */
- 
+
 static void err_exit(void)
 {
     (void)gpio_dealloc(30);
@@ -38,9 +36,6 @@ static void err_exit(void)
     
     /* 
      * Create the required GPIO pins and reserve them 
-     */
-    
-    /* 
      * Setup GPIO30. Output and LOW 
      */
      
